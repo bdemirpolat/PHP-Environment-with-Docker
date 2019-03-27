@@ -21,3 +21,6 @@ We need to find the IP address that MySQL and PHP can talk to.
   $ sudo docker inspect burak-mysql | grep "IPAddress"
  ```
 Use returned IP Adress when you are connecting in PHP.
+
+
+Thanks [phpdocker](https://github.com/phpdocker-io/phpdocker.io)
